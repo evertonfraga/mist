@@ -389,6 +389,7 @@ app.on('ready', function() {
                 } catch(e){
                 }
 
+                log.info('Mist version: ', global.version);
                 log.info('Node type: ', nodeType);
                 log.info('Network: ', global.network);
 
